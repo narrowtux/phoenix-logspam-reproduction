@@ -17,13 +17,6 @@ defmodule LogspamWeb do
   those modules here.
   """
 
-  def foo do
-    # force a compile warning
-    let = 5
-
-    :ok
-  end
-
   def static_paths, do: ~w(assets fonts images favicon.ico robots.txt)
 
   def router do
